@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorBackground"
+    app:cardCornerRadius="16dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/article_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Player : "
+            android:textAllCaps="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/player_nickname_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:hint="player name"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color" />
+
+            <EditText
+                android:id="@+id/player_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:hint="email"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color" />
+
+            <EditText
+                android:id="@+id/player_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:layout_marginStart="8dp"
+                android:hint="password"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color" />
+
+            <ImageButton
+                android:id="@+id/enterBtn_"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/enterpng" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

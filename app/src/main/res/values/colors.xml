@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0AFBFD</color>
+    <color name="colorBackground">#0E0E40</color>
+
+    <color name="background_fade">#1AFFFFFF</color>
+    <color name="background_fade1">#33FFFFFF</color>
+    <color name="background_fade2">#59FFFFFF</color>
+    <color name="background_fade3">#73FFFFFF</color>
+    <color name="background_fade4">#99FFFFFF</color>
+    <color name="button_fade">#00FFFFFF</color>
+    <color name="text_color">#0AFBFD</color>
+    <color name="button_text">#F936A8</color>
+    <color name="button_text1">#32FFFEFF</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.triviaappmodel.activitystart.StartActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/title_quiz"
+        />
+
+    <ImageButton
+        android:id="@+id/startQuiz_btn_"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/start_quiz_swap_sml"/>
+
+</LinearLayout>

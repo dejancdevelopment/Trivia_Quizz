@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Trivia Quizz</string>
+    <string name="text_hint">enter number of questions</string>
+    <string name="category_tv">Choose Category :</string>
+    <string name="dificulty_tv">Choose Level Difficulty :</string>
+    <string name="answer_tv">Choose Answer Type :</string>
+    <string name="button_name">Play</string>
+    <string name="finish_Btn">Finish</string>
+    <string name="category_cardTv">Category</string>
+    <string name="question_cardTv">Question</string>
+    <string name="setNumberEditText">10</string>
+    <string name="num_text">No.</string>
+
+    <string name="dialog_text">Welcome in our Android development Academy.We are representing very cool academy from Macedonia.We are students and this is our small project app called "Quizzzy" .This app is our small effort to try to entertain  the clients all around the world.We are hope you\'ll like it.Thanks for downloading.
+    \n\n
+
+        This App contains questions from different, categories,level of difficulty,and number of questions (10-20), separate in two types of questions "multiple answer questions" and "true and false questions".You also can chose a multiple type which is combination of bout types.
+    </string>
+
+
+    <string name="settings_title">Settings</string>
+    <string name="from">from</string>
+
+
+    <string-array name="spinnerCategory">
+        <item>Category</item>
+        <item>Film</item>
+        <item>Music</item>
+        <item>Celebrities</item>
+        <item>Sport</item>
+        <item>Art</item>
+        <item>Computers</item>
+        <item>Geography</item>
+
+
+    </string-array>
+
+    <string-array name="spinnerLevel">
+        <item>Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+
+    </string-array>
+
+
+    <string-array name="spinnerType">
+        <item>Type</item>
+        <item>multiple</item>
+        <item>true/false</item>
+    </string-array>
+    <string-array name="spinnerQuestions">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+
+    </string-array>
+
+</resources>
